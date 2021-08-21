@@ -2,46 +2,47 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0 20%;
     background-color:papayawhip;
+    box-sizing: content-box;
 }
 
 .heading {
     font-family: 'Trebuchet MS';
-    margin-top: 25px;
+    margin-top: 50px;
     text-align: center;
-}
-
-header {
-    background-color:lightsteelblue;
 }
 
 nav {
+    border: 1px solid gray;
+    border-width: 1px 0;
+}
+
+nav ul {
+    padding: 0;
     text-align: center;
 }
 
-nav li {
+nav ul li {
     display: inline-block;
-    width: 200px;
-    margin: 0 50px;
+    margin: 0 160px;
+}
+
+.border {
+    border: 2px solid gray;
+    padding: 10px 50px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.boxes {
+    display: inline-block;
+    text-align: center;
+    width: 49.8%;
+    min-height: 100px;
+    margin: 20px auto;
 }
 
 .colors-header {
     text-align: center;
-}
-
-.colors-border {
-    border: 2px solid gray;
-    padding: 10px 50px;
-    margin: 10px auto;
-}
-
-.color-boxes {
-    display: inline-block;
-    text-align: center;
-    width: 515px;
-    min-height: 100px;
-    margin: 20px auto;
-    position: relative;
-    bottom: 15px;
 }
 
 .hotpink {
@@ -74,24 +75,8 @@ nav li {
     color: black;
 }
 
-.fonts-border {
-    border: 2px solid gray;
-    padding: 10px 50px;
-    margin: 10px auto;
-}
-
 .fonts-header {
     text-align: center;
-}
-
-.font-boxes {
-    display: inline-block;
-    text-align: center;
-    width: 515px;
-    min-height: 100px;
-    margin: 10px auto;
-    position: relative;
-    bottom: 15px;
 }
 
 .marcellus-sc {
@@ -126,19 +111,8 @@ nav li {
     font-style: italic;
 }
 
-.text-styles-border {
-    border: 2px solid gray;
-    padding: 10px 50px;
-    margin: 10px auto;
-}
-
 .text-styles-header {
     text-align: center;
-}
-
-.text-style-boxes {
-    position: relative;
-    bottom: 15px;
 }
 
 .heading1 {
